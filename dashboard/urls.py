@@ -19,8 +19,8 @@ from .views import test, login, auth
 
 urlpatterns = [
 
-path('test/',  view =test, name='home'),
 path('login/',  view =login, name='login'),
 path('auth',  view =auth, name='auth'),
+path('',  view =test, name='home')
 
 ]
